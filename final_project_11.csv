@@ -1,0 +1,682 @@
+﻿id,date,name,type,tonnage,lat,lon,flag,agent
+1,1941-12-10,I 170,submarine,1785,23-45N,155-35W,united_states,navy_carrier_based_aircraft
+2,1941-12-10,MINESWEEPER NO 10,minesweeper,630,17-32N,120-22E,united_states,land_based_aircraft
+3,1941-12-10,MINESWEEPER NO 19,minesweeper,492,18-22N,121-38E,united_states,land_based_aircraft
+4,1941-12-11,HAYATE,escort,1270,19-16N,166-37E,united_states,shore_battery
+5,1941-12-11,KISARAGI,escort,1500,19-16N,166-37E,united_states,shore_battery
+6,1941-12-17,RO 66,submarine,988,19-25N,166-30E,japan,marine_casualty
+7,1941-12-18,SHINONOME,escort,1950,4-24N,114-00E,netherlands,mine
+8,1941-12-22,PATROL BOAT NO 32,escort,750,19-17N,166-35E,japan,marine_casualty
+9,1941-12-22,PATROL BOAT NO 33,escort,750,19-17N,166-35E,japan,marine_casualty
+10,1941-12-24,SAGIRI,escort,1950,1-34N,110-21E,netherlands,submarine
+11,1941-12-26,MINESWEEPER NO 6,minesweeper,615,1-34N,110-21E,netherlands,land_based_aircraft
+12,1941-12-29,RO 60,submarine,988,9-00N,167-40E,japan,marine_casualty
+13,1942-01-12,MINESWEEPER NO 13,minesweeper,492,3-15N,113-35E,netherlands,shore_battery
+14,1942-01-12,MINESWEEPER NO 14,minesweeper,492,3-15N,113-35E,netherlands,shore_battery
+15,1942-01-17,I 160,submarine,1635,6-00S,105-00E,great_britain,surface_craft
+16,1942-01-20,I 124,submarine,1142,12-05S,130-06E,united_states,surface_craft
+17,1942-01-24,PATROL BOAT NO 37,escort,750,00-10N,118-00E,united_states,surface_craft
+18,1942-01-27,I 173,submarine,1785,28-24N,178-35E,united_states,submarine
+19,1942-01-29,I 23,submarine,2212,20-35N,155-29W,united_states,surface_craft
+20,1942-02-02,MINESWEEPER NO 9,minesweeper,630,3-42S,128-10E,netherlands,mine
+21,1942-02-08,NATSUSHIO,escort,1900,5-10S,119-24E,united_states,submarine
+22,1942-04-03,UNKNOWN,escort,750,00-36N,119-19E,united_states,submarine
+23,1942-04-26,RO 30,submarine,965,18-11N,166-54W,united_states,submarine
+24,1942-05-02,MIZUHO,miscellaneous_auxiliary,9000,34-26N,138-14E,united_states,submarine
+25,1942-05-04,KIKUTSUKI,escort,1500,9-07S,160-12E,united_states,navy_carrier_based_aircraft
+26,1942-05-07,SHOHO,capital_ship,12000,10-29S,152-55E,united_states,navy_carrier_based_aircraft
+27,1942-05-11,OKINOSHIMA,minesweeper,4400,5-06S,153-48E,united_states,submarine
+28,1942-05-17,I 28,submarine,2212,6-30N,152-00E,united_states,submarine
+29,1942-05-17,I 164,submarine,1625,29-25N,134-09E,united_states,submarine
+30,1942-05-25,ASAHI,miscellaneous_auxiliary,11441,10-00N,110-00E,united_states,submarine
+31,1942-06-04,AKAGI,capital_ship,36000,30-00N,179-00W,united_states,navy_carrier_based_aircraft
+32,1942-06-04,KAGA,capital_ship,35000,30-00N,179-00W,united_states,navy_carrier_based_aircraft
+33,1942-06-04,HIRYU,capital_ship,17500,31-15N,179-05E,united_states,navy_carrier_based_aircraft
+34,1942-06-04,SORYU,capital_ship,17500,30-13N,179-17W,united_states,navy_carrier_based_aircraft
+35,1942-06-06,MIKUMA,cruiser,13000,30-00N,173-00E,united_states,navy_carrier_based_aircraft
+36,1942-06-25,YAMAKAZE,escort,1580,34-34N,140-26E,united_states,submarine
+37,1942-07-04,NENOHI,escort,1600,52-15N,173-51E,united_states,submarine
+38,1942-07-05,ARARE,escort,1850,52-00N,177-40E,united_states,submarine
+39,1942-07-09,RO 32,submarine,700,55-20N,134-40W,united_states,surface_craft
+40,1942-07-15,SUBMARINE CHASER NO 25,escort,300,52-02N,177-42E,united_states,submarine
+41,1942-07-15,SUBMARINE CHASER NO 27,escort,300,52-02N,177-42E,united_states,submarine
+42,1942-08-10,KAKO,cruiser,8800,2-15S,152-15E,united_states,submarine
+43,1942-08-24,RYUJO,capital_ship,8500,6-20S,160-50E,united_states,navy_carrier_based_aircraft
+44,1942-08-25,MUTSUKI,escort,1500,7-47S,160-13E,united_states,land_based_aircraft
+45,1942-08-28,I 123,submarine,1142,9-21S,160-43E,united_states,surface_craft
+46,1942-08-28,ASAGIRI,escort,1950,8-00S,160-10E,united_states,land_based_aircraft
+47,1942-08-29,RO 33,submarine,700,9-36S,147-06E,great_britain,surface_craft
+48,1942-08-31,RO 61,submarine,988,52-36N,173-57N,united_states,land_based_aircraft
+49,1942-09-11,YAYOI,escort,1500,8-45S,151-25E,united_states,land_based_aircraft
+50,1942-10-11,FURUTAKA,cruiser,8800,9-00S,159-50E,united_states,surface_craft
+51,1942-10-11,FUBUKI,escort,1950,9-10S,159-40E,united_states,surface_craft
+52,1942-10-11,NATSUGUMO,escort,1850,9-10S,159-40E,united_states,surface_craft
+53,1942-10-12,MURAKUMO,escort,1950,8-40S,158-20E,united_states,land_based_aircraft
+54,1942-10-13,I 30,submarine,2212,l-00N,105-00E,great_britain,mine
+55,1942-10-16,OBORO,escort,1950,52-17N,178-08E,united_states,land_based_aircraft
+56,1942-10-25,YURA,cruiser,5700,8-40S,160-00E,united_states,land_based_aircraft
+57,1942-11-10,I 172,submarine,1785,10-13S,161-09E,united_states,surface_craft
+58,1942-11-13,AKATSUKI,escort,1950,9-10S,159-45E,united_states,surface_craft
+59,1942-11-13,YUDACHI,escort,1580,9-10S,149-45E,united_states,surface_craft
+60,1942-11-13,HIYEI,capital_ship,31000,9-00S,159-00E,united_states,land_based_aircraft
+61,1942-11-14,KINUGASA,cruiser,8800,8-45S,157-10E,united_states,navy_carrier_based_aircraft
+62,1942-11-15,KIRISHIMA,capital_ship,31000,9-10S,159-55E,united_states,surface_craft
+63,1942-11-15,AYANAMI,escort,1950,9-00S,159-45E,united_states,surface_craft
+64,1942-11-24,HAYASHIO,escort,1900,7-00S,140-30E,united_states,land_based_aircraft
+65,1942-11-30,TAKANAMI,escort,1900,9-10S,159-45E,united_states,surface_craft
+66,1942-12-10,I 3,submarine,1995,9-14S,159-40E,united_states,surface_craft
+67,1942-12-12,TERUTSUKI,escort,2450,7-50S,157-30E,united_states,surface_craft
+68,1942-12-16,I 15,submarine,2212,9-10S,159-30E,united_states,land_based_aircraft
+69,1942-12-18,TENRYU,cruiser,3300,5-11S,145-57E,united_states,submarine
+70,1942-12-20,I 4,submarine,1995,5-02S,152-33E,united_states,submarine
+71,1942-12-22,PATROL BOAT NO 35,escort,750,5-05S,156-04E,united_states,submarine
+72,1942-12-25,I 22,submarine,2180,8-32S,148-17E,united_states,surface_craft
+73,1943-01-02,I 18,submarine,2180,8-49S,157-09E,united_states,submarine
+74,1943-01-10,OKIKAZE,escort,1300,35-02N,140-12E,united_states,submarine
+75,1943-01-12,PATROL BOAT NO 1,escort,750,2-51S,149-43E,united_states,submarine
+76,1943-01-23,HAKAZE,escort,1300,2-47S,150-38E,united_states,submarine
+77,1943-01-29,I 1,submarine,2,9-13S,159-37E,new_zealand,surface_craft
+78,1943-02-01,MAKIGUMO,escort,1900,9-10S,159-45E,united_states,mine
+79,1943-02-11,RO 102,submarine,525,14-15S,161-59E,united_states,navy_carrier_based_aircraft
+80,1943-02-20,OSHIO,escort,1850,00-50S,146-06E,united_states,submarine
+81,1943-02-20,UNKNOWN,escort,750,00-50S,146-06E,united_states,submarine
+82,1943-03-03,ARASHIO,escort,1850,7-15S,148-30E,united_states,land_based_aircraft
+83,1943-03-03,ASASHIO,escort,1850,7-10S,148-15E,united_states,land_based_aircraft
+84,1943-03-03,TOKITSUKAZE,escort,1900,7-15S,148-30E,united_states,land_based_aircraft
+85,1943-03-03,SHIRAYUKI,escort,1950,7-15S,148-30E,united_states,land_based_aircraft
+86,1943-03-06,MINEGUMO,escort,1850,8-05S,157-15E,united_states,surface_craft
+87,1943-03-06,MURASAME,escort,1580,8-05S,157-15E,united_states,surface_craft
+88,1943-04-03,SUBMARINE CHASER NO 13,escort,440,40-00N,142-00E,united_states,submarine
+89,1943-04-04,RO 34,submarine,700,8-15S,158-55E,united_states,surface_craft
+90,1943-04-09,ISONAMI,escort,1950,5-26S,123-04E,united_states,submarine
+91,1943-04-23,PATROL BOAT NO 39,escort,820,23-45N,122-45E,united_states,submarine
+92,1943-05-08,KUROSHIO,escort,1900,8-05S,156-55E,united_states,mine
+93,1943-05-08,OYASHIO,escort,1900,8-05S,156-55E,united_states,land_based_aircraft
+94,1943-05-08,KAGERO,escort,1900,8-05S,156-55E,united_states,land_based_aircraft
+95,1943-05-28,RO 107,submarine,525,15-35S,167-17E,united_states,surface_craft
+96,1943-06-08,MUTSU,capital_ship,37500,34-05N,132-20E,japan,marine_casualty
+97,1943-06-10,I 9,submarine,2443,53-16N,174-24E,united_states,surface_craft
+98,1943-06-13,I 31,submarine,2212,52-08N,177-38E,united_states,surface_craft
+99,1943-06-22,I 7,submarine,1995,51-49N,177-20E,united_states,surface_craft
+100,1943-07-01,RO 101,submarine,525,8-39S,157-35E,united_states,surface_craft
+101,1943-07-06,NAGATSUKI,escort,1500,7-57S,157-12E,united_states,surface_craft
+102,1943-07-06,NIIZUKI,escort,2450,7-57S,157-12E,united_states,surface_craft
+103,1943-07-11,I 25,submarine,2212,8-00S,157-19E,united_states,surface_craft
+104,1943-07-13,JINTSU,cruiser,5900,7-36S,157-06E,united_states,surface_craft
+105,1943-07-17,HATSUYUKI,escort,1950,6-50S,155-47E,united_states,land_based_aircraft
+106,1943-07-20,KIYONAMI,escort,2100,7-13S,156-45E,united_states,land_based_aircraft
+107,1943-07-20,YUGURE,escort,1600,7-25S,156-45E,united_states,land_based_aircraft
+108,1943-07-22,NISSHIN,miscellaneous_auxiliary,9000,6-35S,156-10E,united_states,land_based_aircraft
+109,1943-07-27,HIRASHIMA,miscellaneous_auxiliary,720,32-32N,127-41E,united_states,submarine
+110,1943-07-27,I 24,submarine,2180,2-50S,149-01E,united_states,submarine
+111,1943-07-28,ARIAKE,escort,1600,5-27S,148-25E,united_states,land_based_aircraft
+112,1943-07-28,MIKATSUKI,escort,1500,5-27S,148-25E,united_states,land_based_aircraft
+113,1943-08-02,MOTOR TORPEDO BOAT NO 112,escort,500,6-40S,146-50E,united_states,land_based_aircraft
+114,1943-08-02,MOTOR TORPEDO BOAT NO 113,escort,500,6-40S,146-50E,united_states,land_based_aircraft
+115,1943-08-06,ARASHI,escort,1900,7-50S,156-47E,united_states,surface_craft
+116,1943-08-06,HAGIKAZE,escort,1900,7-50S,156-47E,united_states,surface_craft
+117,1943-08-06,KAWAKAZE,escort,1580,7-50S,156-47E,united_states,surface_craft
+118,1943-08-18,SPECIAL SUBMARINE CHASER NO 5,escort,100,7-26S,156-45E,united_states,surface_craft
+119,1943-08-18,SPECIAL SUBMARINE CHASER NO 12,escort,100,7-26S,156-45E,united_states,surface_craft
+120,1943-08-19,I 17,submarine,2212,23-26S,166-50E,united_states,land_based_aircraft
+121,1943-08-19,SPECIAL SUBMARINE CHASER NO 109,escort,200,3-01S,125-50E,united_states,submarine
+122,1943-08-25,I 178,submarine,1630,12-57S,164-23E,united_states,surface_craft
+123,1943-09-02,MUTSURE,escort,860,8-40N,151-31E,united_states,submarine
+124,1943-09-03,I 168,submarine,1785,13-10S,165-28E,united_states,surface_craft
+125,1943-09-09,I 182,submarine,1630,10-33N,125-31E,united_states,submarine
+126,1943-09-11,MINESWEEPER NO16,minesweeper,492,6-08S,119-20E,australia,mine
+127,1943-09-15,RO 103,submarine,525,10-57S,163-56E,united_states,land_based_aircraft
+128,1943-09-26,KASASAGI,escort,595,5-50S,121-57E,united_states,submarine
+129,1943-09-30,PETEREL,miscellaneous_auxiliary,310,21-12N,110-24E,united_states,land_based_aircraft
+130,1943-10-01,I 20,submarine,2180,7-40S,157-10E,united_states,surface_craft
+131,1943-10-06,YUGUMO,escort,1900,7-32S,156-20E,united_states,surface_craft
+132,1943-10-12,BOKO,miscellaneous_auxiliary,400,4-35S,152-11E,united_states,land_based_aircraft
+133,1943-10-16,SPECIAL SUBMARINE CHASER NO 31,escort,100,4-00S,152-00E,united_states,land_based_aircraft
+134,1943-10-24,MOCHITSUKI,escort,1500,5-42S,151-40E,united_states,land_based_aircraft
+135,1943-11-02,SENDAI,cruiser,5900,6-20S,154-20E,united_states,surface_craft
+136,1943-11-02,HATSUKAZE,escort,1900,6-20S,154-20E,united_states,surface_craft
+137,1943-11-02,MINESWEEPER NO26,minesweeper,500,4-13S,152-11E,united_states,land_based_aircraft
+138,1943-11-04,TSUKUSHI,miscellaneous_auxiliary,2000,2-40S,150-40E,australia,mine
+139,1943-11-04,SPECIAL SUBMARINE CHASER NO 30,escort,100,7-34N,134-0E,united_states,submarine
+140,1943-11-06,SUBMARINE CHASER NO 11,escort,270,5-26S,154-33E,united_states,land_based_aircraft
+141,1943-11-11,SUZUNAMI,escort,2100,4-13S,152-11E,united_states,navy_carrier_based_aircraft
+142,1943-11-12,I 34,submarine,2212,5-17N,100-05E,great_britain,submarine
+143,1943-11-18,SANAYE,escort,820,4-52N,122-07E,united_states,submarine
+144,1943-11-23,I 35,submarine,2212,1-22N,172-47E,united_states,surface_craft
+145,1943-11-23,WAKAMIYA,escort,860,28-49N,122-11E,united_states,submarine
+146,1943-11-25,I 19,submarine,2212,3-10N,171-55E,united_states,surface_craft
+147,1943-11-25,YUGIRI,escort,1950,4-48S,153-55E,united_states,surface_craft
+148,1943-11-25,MAKINAMI,escort,1900,5-06S,153-44E,united_states,surface_craft
+149,1943-11-25,ONAMI,escort,2100,5-06S,153-44E,united_states,surface_craft
+150,1943-12-04,CHUYO,capital_ship,20000,32-37N,143-39E,united_states,submarine
+151,1943-12-16,I 179,submarine,1630,4-28S,147-22E,united_states,land_based_aircraft
+152,1943-12-19,NUMAKAZE,escort,1300,26-29N,128-26E,united_states,submarine
+153,1943-12-20,FUYO,escort,820,14-44N,119-55E,united_states,submarine
+154,1943-12-23,I 39,submarine,2212,9-23S,160-09E,united_states,surface_craft
+155,1943-12-23,NANYO,escort,1200,25-30N,119-30E,united_states,land_based_aircraft
+156,1943-12-25,MINESWEEPER NO 31,minesweeper,492,2-36S,150-49E,united_states,navy_carrier_based_aircraft
+157,1944-01-11,KUMA,cruiser,5700,6-00N,99-00E,great_britain,submarine
+158,1944-01-14,SAZANAMI,escort,1950,5-15N,141-15E,united_states,submarine
+159,1944-01-15,PING SANG,miscellaneous_auxiliary,171,21-00N,107-22E,united_states,land_based_aircraft
+160,1944-01-16,I 181,submarine,1630,Off New Guinea,,united_states,surface_craft
+161,1944-01-22,I 48,submarine,2180,9-45N,138-20E,united_states,surface_craft
+162,1944-01-22,RO 37,submarine,965,11-47S,164-17E,united_states,surface_craft
+163,1944-01-22,SPECIAL SUBMARINE CHASER NO 40,escort,100,1-50S,147-20E,united_states,land_based_aircraft
+164,1944-01-26,SPECIAL SUBMARINE CHASER NO 14,escort,130,11-10N,163-25E,united_states,land_based_aircraft
+165,1944-01-26,SUZUKAZE,escort,1580,8-51N,157-10E,united_states,submarine
+166,1944-01-30,SPECIAL SUBMARINE CHASER NO 28,escort,100,8-42N,167-441,united_states,navy_carrier_based_aircraft
+167,1944-01-30,SPECIAL SUBMARINE CHASER NO 25,escort,100,8-42N,167-44E,united_states,navy_carrier_based_aircraft
+168,1944-01-30,SPECIAL SUBMARINE CHASER NO 21,escort,100,8-42N,167-44E,united_states,navy_carrier_based_aircraft
+169,1944-01-30,SPECIAL SUBMARINE CHASER NO 19,escort,100,8-42N,167-44E,united_states,navy_carrier_based_aircraft
+170,1944-01-30,SPECIAL SUBMARINE CHASER NO 18,escort,100,8-42N,167-44E,united_states,navy_carrier_based_aircraft
+171,1944-01-31,I 171,submarine,1785,5-37S,154-14E,united_states,surface_craft
+172,1944-01-31,SPECIAL SUBMARINE CHASER NO 33,escort,100,8-42N,167-44E,united_states,navy_carrier_based_aircraft
+173,1944-01-31,NASAMI,miscellaneous_auxiliary,443,9-50N,147-06E,united_states,submarine
+174,1944-02-01,RO 39,submarine,965,9-24N,170-32E,united_states,surface_craft
+175,1944-02-01,UMIKAZE,escort,1580,7-10N,151-43E,united_states,submarine
+176,1944-02-04,I 21,submarine,2212,6-48N,168-08E,united_states,surface_craft
+177,1944-02-10,MINEKAZE,escort,1300,23-12N,121-30E,united_states,submarine
+178,1944-02-11,RO 110,submarine,525,17-25N,83-21E,australia,surface_craft
+179,1944-02-12,I 27,submarine,2212,1-25N,72-22E,great_britain,surface_craft
+180,1944-02-15,I 43,submarine,2212,12-42N,49-17E,united_states,submarine
+181,1944-02-16,RO 40,submarine,965,9-50N,166-35E,united_states,surface_craft
+182,1944-02-16,SPECIAL SUBMARINE CHASER NO 16,escort,100,2-24S,150-06E,united_states,land_based_aircraft
+183,1944-02-16,AGANO,cruiser,7000,10-11N,151-42E,united_states,submarine
+184,1944-02-17,I 11,submarine,2443,10-34N,173-31E,united_states,surface_craft
+185,1944-02-17,SUBMARINE CHASER NO 24,escort,300,7-24N,150-30E,united_states,surface_craft
+186,1944-02-17,NAKA,cruiser,5900,7-15N,151-15E,united_states,navy_carrier_based_aircraft
+187,1944-02-17,FUMITSUKI,escort,1500,7-24N,151-44E,united_states,navy_carrier_based_aircraft
+188,1944-02-17,TACHIKAZE,escort,1300,7-04N,151-55E,united_states,navy_carrier_based_aircraft
+189,1944-02-17,MAIKAZE,escort,1900,7-45N,151-20E,united_states,surface_craft
+190,1944-02-17,OITE,escort,1270,7-40N,151-45E,united_states,navy_carrier_based_aircraft
+191,1944-02-17,SUBMARINE CHASER NO 29,escort,270,7-25N,151-45E,united_states,navy_carrier_based_aircraft
+192,1944-02-17,SPECIAL SUBMARINE CHASER NO 29,escort,100,2-24S,150-06E,united_states,land_based_aircraft
+193,1944-02-17,SUBMARINE CHASER NO 39,escort,300,2-24S,150-06E,united_states,land_based_aircraft
+194,1944-02-17,KATORI,cruiser,6000,7-45N,151-20E,united_states,surface_craft
+195,1944-02-19,SPECIAL SUBMARINE CHASER NO 34,escort,100,2-45S,150-47E,united_states,land_based_aircraft
+196,1944-02-19,SUBMARINE CHASER NO22,escort,300,3-04S,150-42E,united_states,land_based_aircraft
+197,1944-02-19,SUBMARINE CHASER NO40,escort,300,3-04S,150-42E,united_states,land_based_aircraft
+198,1944-02-21,SPECIAL SUBMARINE CHASER NO48,escort,100,2-30S,150-15E,united_states,land_based_aircraft
+199,1944-02-22,NATSUSHIMA,miscellaneous_auxiliary,443,2-40S,149-40E,united_states,surface_craft
+200,1944-02-22,NAGAURA,miscellaneous_auxiliary,800,00-54S,148-38E,united_states,surface_craft
+201,1944-02-22,FRANCIS GARNIER,escort,639,10-30N,108-00E,united_states,mine
+202,1944-02-26,ASTROLABE,miscellaneous_auxiliary,215,16-04N,108-13E,united_states,land_based_aircraft
+203,1944-03-03,KARATSU,escort,560,8-52N,123-23E,united_states,submarine
+204,1944-03-04,SHIRAKAMI,miscellaneous_auxiliary,720,39-30N,142-00E,japan,marine_casualty
+205,1944-03-13,TATSUTA,cruiser,3300,32-58N,138-52E,united_states,submarine
+206,1944-03-16,SHIRAKUMO,escort,1950,42-25N,144-55E,united_states,submarine
+207,1944-03-19,SPECIAL SUBMARINE CHASER NO47,escort,100,2-55S,143-40E,united_states,land_based_aircraft
+208,1944-03-19,SPECIAL SUBMARINE CHASER NO49,escort,100,2-55S,143-40E,united_states,land_based_aircraft
+209,1944-03-23,I 42,submarine,2212,6-40N,134-03E,united_states,submarine
+210,1944-03-24,I 32,submarine,2212,8-30N,170-10E,united_states,surface_craft
+211,1944-03-25,SUBMARINE CHASER NO54,escort,300,28-34N,142-14E,united_states,submarine
+212,1944-03-30,WAKATAKE,escort,820,7-50N,134-20E,united_states,navy_carrier_based_aircraft
+213,1944-03-30,PATROL BOAT NO31,escort,750,7-30N,134-30E,united_states,navy_carrier_based_aircraft
+214,1944-03-30,SPECIAL SUBMARINE CHASER NO22,escort,100,7-30N,134-30E,united_states,navy_carrier_based_aircraft
+215,1944-03-30,SPECIAL SUBMARINE CHASER NO26,escort,100,7-30N,134-30E,united_states,navy_carrier_based_aircraft
+216,1944-03-30,SPECIAL SUBMARINE CHASER NO53,escort,170,7-30N,134-30E,united_states,navy_carrier_based_aircraft
+217,1944-03-30,SUBMARINE CHASER NO6,escort,270,7-30N,134-30E,united_states,navy_carrier_based_aircraft
+218,1944-03-30,AKASHI,miscellaneous_auxiliary,9000,7-30N,134-30E,united_states,navy_carrier_based_aircraft
+219,1944-04-04,I 169,submarine,1785,7-25N,151-50E,japan,marine_casualty
+220,1944-04-05,SPECIAL SUBMARINE CHASER NO46,escort,130,7-26N,151-52E,united_states,navy_carrier_based_aircraft
+221,1944-04-06,I 2,submarine,1995,2-17S,149-14E,united_states,surface_craft
+222,1944-04-11,AKIGUMO,escort,1900,6-43N,122-23E,united_states,submarine
+223,1944-04-13,IKAZUCHI,escort,1950,10-13N,143-51E,united_states,submarine
+224,1944-04-15,MINESWEEPER NO7,minesweeper,630,11-34N,93-08E,great_britain,submarine
+225,1944-04-20,RO 45,submarine,965,15-19N,145-31E,united_states,submarine
+226,1944-04-22,HOKUAN,miscellaneous_auxiliary,534,7-10N,99-20E,great_britain,submarine
+227,1944-04-23,AMAGIRI,escort,1950,2-10S,116-45E,united_states,mine
+228,1944-04-26,I 180,submarine,1630,55-10N,155-40W,united_states,surface_craft
+229,1944-04-27,KAMONE,miscellaneous_auxiliary,450,27-37N,128-11E,united_states,submarine
+230,1944-04-27,YUBARI,cruiser,3500,5-20N,132-16E,united_states,submarine
+231,1944-04-28,I 183,submarine,1630,32-07N,133-03E,united_states,submarine
+232,1944-04-29,I 174,submarine,1785,6-13N,151-19E,united_states,land_based_aircraft
+233,1944-04-29,TAHURE,escort,644,13-02N,109-28E,united_states,submarine
+234,1944-04-30,SPECIAL SUBMARINE CHASER NO38,escort,100,7-22N,151-45E,united_states,navy_carrier_based_aircraft
+235,1944-05-10,KARUKAYA,escort,820,15-38N,119-25E,united_states,submarine
+236,1944-05-13,RO 501,submarine,1200,18-08N,33-13W,united_states,surface_craft
+237,1944-05-14,INAZUMA,escort,1950,5-08N,119-38E,united_states,submarine
+238,1944-05-16,I 176,submarine,1630,4-01S,156-29E,united_states,surface_craft
+239,1944-05-19,I 16,submarine,2180,5-10S,158-17E,united_states,surface_craft
+240,1944-05-21,RO 106,submarine,525,1-40N,150-31E,united_states,surface_craft
+241,1944-05-22,RO 104,submarine,525,1-26N,149-20E,united_states,surface_craft
+242,1944-05-22,HASHIDATE,escort,1200,21-20N,117-10E,united_states,submarine
+243,1944-05-22,ASANAGI,escort,1270,28-20N,138-57E,united_states,submarine
+244,1944-05-23,RO 116,submarine,525,00-53N,149-14E,united_states,surface_craft
+245,1944-05-24,IKI,escort,860,1-17N,107-50E,united_states,submarine
+246,1944-05-26,RO 108,submarine,525,00-32S,148-35E,united_states,surface_craft
+247,1944-05-29,RO 105,submarine,525,00-47N,149-56E,united_states,surface_craft
+248,1944-05-30,ISHIGAKI,escort,860,48-30N,151-30E,united_states,submarine
+249,1944-06-02,AWAJI,escort,900,22-34N,121-51E,united_states,submarine
+250,1944-06-04,TRANSPORT NO128,miscellaneous_auxiliary,1000,4-00N,129-45E,united_states,land_based_aircraft
+251,1944-06-06,COAST DEFENSE VESSEL NO15,escort,800,8-58N,109-30E,united_states,submarine
+252,1944-06-06,MINATSUKI,escort,1500,4-05N,119-30E,united_states,submarine
+253,1944-06-07,HAYANAMI,escort,2100,4-43N,120-03E,united_states,submarine
+254,1944-06-08,HARUSAME,escort,1580,00-05N,132-45E,united_states,land_based_aircraft
+255,1944-06-08,KAZEGUMO,escort,1900,6-03N,125-57E,united_states,submarine
+256,1944-06-09,MATSUKAZE,escort,1270,26-59N,143-13E,united_states,submarine
+257,1944-06-09,TANIKAZE,escort,1900,5-42N,120-41E,united_states,submarine
+258,1944-06-10,I 5,submarine,1995,00-26N,149-16E,united_states,surface_craft
+259,1944-06-10,RO 111,submarine,525,10-05N,168-22E,united_states,surface_craft
+260,1944-06-12,I 33,submarine,2212,33-30N,132-30E,japan,marine_casualty
+261,1944-06-12,OTORI,escort,595,17-32N,144-00E,united_states,navy_carrier_based_aircraft
+262,1944-06-12,SPECIAL SUBMARINE CHASER NO35,escort,100,17-30N,143-18E,united_states,navy_carrier_based_aircraft
+263,1944-06-12,SPECIAL SUBMARINE CHASER NO54,escort,100,17-30N,143-18E,united_states,navy_carrier_based_aircraft
+264,1944-06-12,SPECIAL SUBMARINE CHASER NO56,escort,100,17-30N,143-18E,united_states,navy_carrier_based_aircraft
+265,1944-06-13,RO 36,submarine,965,15-21N,147-00E,united_states,surface_craft
+266,1944-06-13,TRANSPORT NO1,miscellaneous_auxiliary,1500,11-30N,140-00E,united_states,surface_craft
+267,1944-06-15,SHIRATSUYU,escort,1580,9-09N,126-51E,japan,marine_casualty
+268,1944-06-15,RO 44,submarine,965,11-13N,164-15E,united_states,surface_craft
+269,1944-06-15,SPECIAL MINELAYER NO101,miscellaneous_auxiliary,730,15-15N,145-45E,united_states,surface_craft
+270,1944-06-16,RO 114,submarine,525,15-02N,144-10E,united_states,surface_craft
+271,1944-06-17,RO 117,submarine,525,11-05N,150-31E,united_states,land_based_aircraft
+272,1944-06-19,I 184,submarine,1630,13-01N,149-53E,united_states,land_based_aircraft
+273,1944-06-19,SHOKAKU,capital_ship,30000,11-50N,137-57E,united_states,submarine
+274,1944-06-19,TAIHO,capital_ship,31000,12-22N,137-04E,united_states,submarine
+275,1944-06-20,HITAKA,capital_ship,28000,15-30N,133-30E,united_states,navy_carrier_based_aircraft
+276,1944-06-22,I 185,submarine,1630,15-50N,147-08E,united_states,surface_craft
+277,1944-06-24,I 52,submarine,2095,15-16N,39-55W,united_states,navy_carrier_based_aircraft
+278,1944-06-28,COAST DEFENSE VESSEL NO24,escort,800,24-44N,140-20E,united_states,submarine
+279,1944-06-29,TSUGARU,miscellaneous_auxiliary,4400,2-19N,127-57E,united_states,submarine
+280,1944-07-04,I 10,submarine,2443,15-26N,147-48E,united_states,surface_craft
+281,1944-07-04,SUBMARINE CHASER NO16,escort,300,27-00N,140-50E,united_states,navy_carrier_based_aircraft
+282,1944-07-04,SARUSHIMA,miscellaneous_auxiliary,443,27-10N,142-10E,united_states,navy_carrier_based_aircraft
+283,1944-07-04,TRANSPORT NO103,miscellaneous_auxiliary,1000,27-05N,142-09E,united_states,navy_carrier_based_aircraft
+284,1944-07-04,TRANSPORT NO130,miscellaneous_auxiliary,1000,24-47N,141-20E,united_states,navy_carrier_based_aircraft
+285,1944-07-06,HOKAZE,escort,1300,3-24N,125-28E,united_states,submarine
+286,1944-07-07,USUGUMO,escort,1950,47-43N,147-55E,united_states,submarine
+287,1944-07-07,TAMANAMI,escort,2100,13-55N,118-30E,united_states,submarine
+288,1944-07-10,SPECIAL SUBMARINE CHASER NO23,escort,100,4-13S,152-11E,new_zealand,land_based_aircraft
+289,1944-07-13,I 6,submarine,1995,15-18N,144-26E,united_states,surface_craft
+290,1944-07-17,I 166,submarine,1635,5-10N,100-00E,great_britain,submarine
+291,1944-07-17,MINESWEEPER NO25,minesweeper,492,33-51N,138-35E,united_states,submarine
+292,1944-07-18,RO 48,submarine,965,13-01N,151-58E,united_states,surface_craft
+293,1944-07-18,SUBMARINE CHASER NO50,escort,300,29-22N,139-14E,united_states,submarine
+294,1944-07-19,SPECIAL MINESWEEPER NO4,minesweeper,300,8-38S,125-26E,australia,land_based_aircraft
+295,1944-07-19,OI,cruiser,5700,12-45N,114-20E,united_states,submarine
+296,1944-07-25,UNKNOWN SCS,escort,100,7-05N,134-20E,united_states,navy_carrier_based_aircraft
+297,1944-07-25,SAMIDARE,escort,1580,8-10N,134-38E,united_states,submarine
+298,1944-07-26,SOKUTEN,miscellaneous_auxiliary,720,7-20N,134-27E,united_states,navy_carrier_based_aircraft
+299,1944-07-26,TRANSPORT NO150,miscellaneous_auxiliary,1000,7-30N,134-30E,united_states,navy_carrier_based_aircraft
+300,1944-07-26,I 29,submarine,2212,20-10N,121-50E,united_states,submarine
+301,1944-07-28,I 55,submarine,2095,14-26N,152-16E,united_states,surface_craft
+302,1944-08-04,MATSU,escort,900,27-40N,141-48E,united_states,surface_craft
+303,1944-08-04,TRANSPORT NO4,miscellaneous_auxiliary,1500,27-07N,142-12E,united_states,navy_carrier_based_aircraft
+304,1944-08-04,TRANSPORT NO133,miscellaneous_auxiliary,1000,24-47N,141-20E,united_states,navy_carrier_based_aircraft
+305,1944-08-04,TRANSPORT NO152,miscellaneous_auxiliary,1000,24-47N,141-20E,united_states,navy_carrier_based_aircraft
+306,1944-08-05,TRANSPORT NO2,miscellaneous_auxiliary,1500,27-05N,142-09E,united_states,navy_carrier_based_aircraft
+307,1944-08-07,SPECIAL SUBMARINE CHASER NO94,escort,100,20-00N,122-00S,japan,marine_casualty
+308,1944-08-07,KUSAKAKI,escort,900,14-51N,119-59E,united_states,submarine
+309,1944-08-07,NAGARA,cruiser,5700,32-09N,129-53E,united_states,submarine
+310,1944-08-13,SUBMARINE CHASER NO12,escort,300,6-17N,126-09E,united_states,submarine
+311,1944-08-14,TRANSPORT NO129,miscellaneous_auxiliary,1000,4-17S,126-46E,united_states,submarine
+312,1944-08-18,OTAKA,capital_ship,20000,13-16N,120-20E,united_states,submarine
+313,1944-08-18,NATORI,cruiser,5700,12-29N,128-49E,united_states,submarine
+314,1944-08-22,SADO,escort,860,14-15N,120-05E,united_states,submarine
+315,1944-08-22,MATSUWA,escort,860,14-15N,120-05E,united_states,submarine
+316,1944-08-22,HIBURI,escort,900,14-15N,120-05E,united_states,submarine
+317,1944-08-23,ASAKAZE,escort,1270,16-06N,119-44E,united_states,submarine
+318,1944-08-23,MINESWEEPER NO22,minesweeper,492,8-09N,134-38E,united_states,submarine
+319,1944-08-25,YUNAGI,escort,1270,18-46N,120-46E,united_states,submarine
+320,1944-08-28,SPECIAL SUBMARINE CHASER NO77,escort,170,50-30N,156-20E,united_states,land_based_aircraft
+321,1944-08-29,MINESWEEPER NO28,minesweeper,492,2-03N,122-28E,united_states,submarine
+322,1944-08-31,SHIRATAKA,miscellaneous_auxiliary,1345,21-05N,121-26E,united_states,submarine
+323,1944-09-09,SPECIAL SUBMARINE CHASER NO8,escort,100,3-54N,98-44E,great_britain,mine
+324,1944-09-11,SPECIAL SUBMARINE CHASER NO165,escort,170,32-20N,131-50E,united_states,submarine
+325,1944-09-12,SUBMARINE CHASER NO55,escort,300,10-20N,124-00E,united_states,navy_carrier_based_aircraft
+326,1944-09-12,MIHO,miscellaneous_auxiliary,632,10-35N,124-00E,united_states,navy_carrier_based_aircraft
+327,1944-09-12,SHIKINAMI,escort,1950,18-16N,114-40E,united_states,submarine
+328,1944-09-12,HIRADO,escort,860,17-54N,114-49E,united_states,submarine
+329,1944-09-14,TRANSPORT NO 5,miscellaneous_auxiliary,1500,6-10N,126-00E,united_states,navy_carrier_based_aircraft
+330,1944-09-15,RO 42,submarine,965,34-30N,145-23E,united_states,submarine
+331,1944-09-15,TRANSPORT NO3,miscellaneous_auxiliary,1500,5-34N,125-23E,united_states,submarine
+332,1944-09-16,UNYO,capital_ship,20000,19-18N,116-26E,united_states,submarine
+333,1944-09-19,IOSHIMA,escort,900,33-40N,138-18E,united_states,submarine
+334,1944-09-21,SATSUKI,escort,1500,14-35N,120-55E,united_states,navy_carrier_based_aircraft
+335,1944-09-21,COAST DEFENSE VESSEL NO5,escort,800,15-25N,119-50E,united_states,navy_carrier_based_aircraft
+336,1944-09-21,SUNOSAKI,miscellaneous_auxiliary,1800,14-35N,120-55E,united_states,navy_carrier_based_aircraft
+337,1944-09-21,KATSURIKI,miscellaneous_auxiliary,1540,13-35N,119-06E,united_states,submarine
+338,1944-09-24,HAYABUSA,escort,595,13-00N,122-00E,united_states,navy_carrier_based_aircraft
+339,1944-09-24,SPECIAL SUBMARINE CHASER NO39,escort,100,12-21N,123-00E,united_states,navy_carrier_based_aircraft
+340,1944-09-24,SUBMARINE CHASER NO32,escort,300,12-15N,121-00E,united_states,navy_carrier_based_aircraft
+341,1944-09-24,SPECIAL MINESWEEPER NO7,minesweeper,300,11-45N,123-30E,united_states,navy_carrier_based_aircraft
+342,1944-09-24,YAEYAMA,miscellaneous_auxiliary,1135,12-15N,121-00E,united_states,navy_carrier_based_aircraft
+343,1944-09-24,AKITSUSHIMA,miscellaneous_auxiliary,9000,11-59N,120-02E,united_states,navy_carrier_based_aircraft
+344,1944-09-25,I 175,submarine,1785,9-19N,136-44E,united_states,surface_craft
+345,1944-09-26,AOTAKA,miscellaneous_auxiliary,1600,7-00N,116-00E,united_states,submarine
+346,1944-09-27,COAST DEFENSE VESSEL NO10,escort,800,29-26N,128-50E,united_states,submarine
+347,1944-10-01,AJIRO,miscellaneous_auxiliary,720,28-11N,139-30E,united_states,submarine
+348,1944-10-02,I 364,submarine,1470,7-48N,133-28E,united_states,surface_craft
+349,1944-10-04,TRANSPORT NO134,miscellaneous_auxiliary,1000,24-47N,141-20E,japan,marine_casualty
+350,1944-10-06,SAGA,escort,990,22-17N,114-10E,united_states,mine
+351,1944-10-06,SPECIAL SUBMARINE CHASER NO2,escort,100,4-20N,98-24E,great_britain,submarine
+352,1944-10-06,COAST DEFENSE VESSEL NO21,escort,800,19-27N,118-08E,united_states,submarine
+353,1944-10-10,TRANSPORT NO158,miscellaneous_auxiliary,1000,26-38N,127-52E,united_states,navy_carrier_based_aircraft
+354,1944-10-10,JINGEI,miscellaneous_auxiliary,5160,26-39N,127-52E,united_states,navy_carrier_based_aircraft
+355,1944-10-11,TRANSPORT NO105,miscellaneous_auxiliary,1000,33-18N,137-42E,united_states,submarine
+356,1944-10-16,HATO,escort,595,21-54N,116-30E,united_states,land_based_aircraft
+357,1944-10-17,ITSUKUSHIMA,miscellaneous_auxiliary,1970,5-26S,113-48E,netherlands,submarine
+358,1944-10-18,SPECIAL SUBMARINE CHASER NO95,escort,100,18-54N,121-51E,united_states,navy_carrier_based_aircraft
+359,1944-10-18,TRANSPORT NO135,miscellaneous_auxiliary,1000,17-46N,120-25E,united_states,navy_carrier_based_aircraft
+360,1944-10-18,TRANSPORT NO136,miscellaneous_auxiliary,1000,17-46N,120-25E,united_states,navy_carrier_based_aircraft
+361,1944-10-22,SPECIAL SUBMARINE CHASER NO15,escort,100,11-30N,124-00E,united_states,navy_carrier_based_aircraft
+362,1944-10-23,MAYA,cruiser,12200,9-29N,117-20E,united_states,submarine
+363,1944-10-23,ATAGO,cruiser,12200,9-24N,117-11E,united_states,submarine
+364,1944-10-24,I 362,submarine,1470,9-45N,126-45E,united_states,surface_craft
+365,1944-10-24,MUSASHI,capital_ship,63000,12-50N,122-35E,united_states,navy_carrier_based_aircraft
+366,1944-10-24,WAKABA,escort,1600,11-50N,121-25E,united_states,navy_carrier_based_aircraft
+367,1944-10-25,FUSO,capital_ship,33000,10-25N,125-20E,united_states,surface_craft
+368,1944-10-25,YAMASHIRO,capital_ship,33000,10-25N,125-20E,united_states,surface_craft
+369,1944-10-25,ASAGUMO,escort,1850,10-25N,125-20E,united_states,surface_craft
+370,1944-10-25,YAMAGUMO,escort,1850,10-25N,125-20E,united_states,surface_craft
+371,1944-10-25,MICHISHIO,escort,1850,10-25N,125-20E,united_states,surface_craft
+372,1944-10-25,HATSUTSUKI,escort,1900,20-24N,126-20E,united_states,surface_craft
+373,1944-10-25,ZUIKAKU,capital_ship,30000,19-20N,125-51E,united_states,navy_carrier_based_aircraft
+374,1944-10-25,SUZUYA,cruiser,13000,11-30N,126-30E,united_states,navy_carrier_based_aircraft
+375,1944-10-25,CHIYODA,capital_ship,11000,18-37N,126-45E,united_states,navy_carrier_based_aircraft
+376,1944-10-25,ZUIHO,capital_ship,12000,19-20N,125-51E,united_states,navy_carrier_based_aircraft
+377,1944-10-25,SPECIAL SUBMARINE CHASER NO62,escort,170,7-30N,134-30E,united_states,navy_carrier_based_aircraft
+378,1944-10-25,CHIKUMA,cruiser,12000,11-30N,126-30E,united_states,surface_craft
+379,1944-10-25,CHOKAI,cruiser,12200,11-30N,126-30E,united_states,navy_carrier_based_aircraft
+380,1944-10-25,MOGAMI,cruiser,13000,9-40N,124-50E,united_states,surface_craft
+381,1944-10-25,CHITOSE,capital_ship,11000,19-20N,126-20E,united_states,navy_carrier_based_aircraft
+382,1944-10-25,AKITSUKI,escort,1900,20-29N,126-36E,united_states,submarine
+383,1944-10-25,TAMA,cruiser,5700,21-23N,127-19E,united_states,submarine
+384,1944-10-26,NOWAKI,escort,1900,13-00N,124-54E,united_states,surface_craft
+385,1944-10-26,KINU,cruiser,5700,11-46N,123-11E,united_states,land_based_aircraft
+386,1944-10-26,NOSHIRO,cruiser,7000,11-35N,121-45E,united_states,navy_carrier_based_aircraft
+387,1944-10-26,HAYASHIMO,escort,2100,12-05N,121-50E,united_states,navy_carrier_based_aircraft
+388,1944-10-26,URANAMI,escort,1950,11-50N,123-00E,united_states,navy_carrier_based_aircraft
+389,1944-10-26,ABUKUMA,cruiser,5700,9-20N,122-30E,united_states,land_based_aircraft
+390,1944-10-27,FUJINAMI,escort,2100,12-00N,122-30E,united_states,navy_carrier_based_aircraft
+391,1944-10-27,SHIRANUHI,escort,1650,12-00N,122-30E,united_states,navy_carrier_based_aircraft
+392,1944-10-27,TRANSPORT NO138,miscellaneous_auxiliary,1000,25-22N,141-31E,united_states,submarine
+393,1944-10-28,I 45,submarine,2212,10-10N,127-28E,united_states,surface_craft
+394,1944-10-28,I 54,submarine,2140,10-56N,127-13E,united_states,surface_craft
+395,1944-10-31,KAIYO NO6,miscellaneous_auxiliary,100,32-50N,134-21E,united_states,submarine
+396,1944-11-03,AKIKAZE,escort,1300,16-48N,117-17E,united_states,submarine
+397,1944-11-04,MINESWEEPER NO5,minesweeper,615,3-14N,99-50E,great_britain,submarine
+398,1944-11-05,TRANSPORT NO112,miscellaneous_auxiliary,1000,12-40N,121-22E,japan,marine_casualty
+399,1944-11-05,NACHI,cruiser,12700,14-23N,120-25E,united_states,navy_carrier_based_aircraft
+400,1944-11-05,PATROL BOAT NO107,miscellaneous_auxiliary,1000,13-50N,120-20E,united_states,navy_carrier_based_aircraft
+401,1944-11-05,NOTORO,miscellaneous_auxiliary,14050,1-18N,103-52E,united_states,land_based_aircraft
+402,1944-11-06,TRANSPORT NO139,miscellaneous_auxiliary,1000,14-35N,120-55E,united_states,navy_carrier_based_aircraft
+403,1944-11-06,SPECIAL SUBMARINE CHASER NO118,escort,100,9-38S,120-17E,australia,land_based_aircraft
+404,1944-11-08,SAGI,escort,595,16-09N,118-56E,united_states,submarine
+405,1944-11-10,COAST DEFENSE VESSEL NO11,escort,800,10-50N,124-35E,united_states,land_based_aircraft
+406,1944-11-10,PATROL BOAT NO46,escort,820,34-30N,138-34E,united_states,submarine
+407,1944-11-11,NAGANAMI,escort,1900,10-50N,124-35E,united_states,navy_carrier_based_aircraft
+408,1944-11-11,HAMANAMI,escort,2100,10-50N,124-35E,united_states,navy_carrier_based_aircraft
+409,1944-11-11,SHIMAKAZE,escort,1300,10-50N,124-35E,united_states,navy_carrier_based_aircraft
+410,1944-11-11,WAKATSUKI,escort,1900,10-50N,124-35E,united_states,navy_carrier_based_aircraft
+411,1944-11-11,MINESWEEPER NO30,minesweeper,630,10-50N,124-31E,united_states,navy_carrier_based_aircraft
+412,1944-11-12,I 37,submarine,2212,8-04N,138-03E,united_states,surface_craft
+413,1944-11-13,I 38,submarine,2212,31-55N,139-45W,united_states,surface_craft
+414,1944-11-13,KISO,cruiser,5700,14-35N,120-50E,united_states,navy_carrier_based_aircraft
+415,1944-11-13,AKEBONO,escort,1950,14-35N,120-50E,united_states,navy_carrier_based_aircraft
+416,1944-11-13,AKISHIMO,escort,2100,14-35N,120-50E,united_states,navy_carrier_based_aircraft
+417,1944-11-13,HATSUHARU,escort,1600,14-35N,120-50E,united_states,navy_carrier_based_aircraft
+418,1944-11-13,OKINAMI,escort,2100,14-35N,120-50E,united_states,navy_carrier_based_aircraft
+419,1944-11-13,SPECIAL SUBMARINE CHASER NO116,escort,100,14-30N,120-45E,united_states,navy_carrier_based_aircraft
+420,1944-11-14,KURASAKI,miscellaneous_auxiliary,989,17-27N,117-43E,united_states,submarine
+421,1944-11-14,COAST DEFENSE VESSEL NO7,escort,800,17-46N,117-57E,united_states,submarine
+422,1944-11-17,I 26,submarine,2212,12-44N,130-42E,united_states,navy_carrier_based_aircraft
+423,1944-11-17,JINYO,capital_ship,21000,33-02N,123-33E,united_states,submarine
+424,1944-11-17,HIYODORI,escort,595,16-56N,110-30E,united_states,submarine
+425,1944-11-18,SPECIAL SUBMARINE CHASER NO156,escort,100,33-07N,123-09E,united_states,submarine
+426,1944-11-19,I 177,submarine,1630,8-07N,134-16E,united_states,surface_craft
+427,1944-11-20,SPECIAL MINELAYER NO4,miscellaneous_auxiliary,600,6-55N,94-15E,great_britain,submarine
+428,1944-11-20,MINESWEEPER NO38,minesweeper,630,21-21N,119-45E,united_states,submarine
+429,1944-11-21,KONGO,capital_ship,31000,26-09N,121-23E,united_states,submarine
+430,1944-11-21,URAKAZE,escort,1900,26-09N,121-23E,united_states,submarine
+431,1944-11-22,TRANSPORT NO151,miscellaneous_auxiliary,1000,11-22N,119-07E,united_states,submarine
+432,1944-11-24,SUBMARINE CHASER NO46,escort,300,11-35N,124-10E,united_states,land_based_aircraft
+433,1944-11-24,TRANSPORT NO111,miscellaneous_auxiliary,1000,11-35N,124-10E,united_states,land_based_aircraft
+434,1944-11-24,TRANSPORT NO141,miscellaneous_auxiliary,1000,11-35N,124-10E,united_states,land_based_aircraft
+435,1944-11-24,TRANSPORT NO160,miscellaneous_auxiliary,1000,11-35N,124-10E,united_states,land_based_aircraft
+436,1944-11-25,KUMANO,cruiser,13000,15-47N,119-48E,united_states,navy_carrier_based_aircraft
+437,1944-11-25,YASOJIMA,escort,900,15-40N,119-45E,united_states,navy_carrier_based_aircraft
+438,1944-11-25,TRANSPORT NO6,miscellaneous_auxiliary,1500,13-32N,121-52E,united_states,navy_carrier_based_aircraft
+439,1944-11-25,TRANSPORT NO10,miscellaneous_auxiliary,1500,13-32N,121-52E,united_states,navy_carrier_based_aircraft
+440,1944-11-25,UNKNOWN LST,miscellaneous_auxiliary,1000,15-40N,119-45E,united_states,navy_carrier_based_aircraft
+441,1944-11-25,UNKNOWN LST,miscellaneous_auxiliary,1000,15-40N,119-45E,united_states,navy_carrier_based_aircraft
+442,1944-11-25,UNKNOWN LST,miscellaneous_auxiliary,1000,15-40N,119-45E,united_states,navy_carrier_based_aircraft
+443,1944-11-25,MINESWEEPER NO18,minesweeper,492,16-52N,108-38E,united_states,land_based_aircraft
+444,1944-11-25,RO 100,submarine,525,7-00S,156-00E,united_states,mine
+445,1944-11-25,COAST DEFENSE VESSEL NO38,escort,800,14-22N,119-57E,united_states,submarine
+446,1944-11-25,PATROL BOAT NO38,escort,820,20-12N,121-51E,united_states,submarine
+447,1944-11-25,SHIMOTSUKI,escort,2300,2-21N,107-20E,united_states,submarine
+448,1944-11-26,TRANSPORT NO161,miscellaneous_auxiliary,1000,16-00N,97-00E,united_states,land_based_aircraft
+449,1944-11-27,I 46,submarine,2180,10-48N,124-35E,united_states,surface_craft
+450,1944-11-28,SUBMARINE CHASER NO53,escort,300,10-59N,124-33E,united_states,surface_craft
+451,1944-11-28,PATROL BOAT NO105,miscellaneous_auxiliary,200,10-59N,124-33E,united_states,surface_craft
+452,1944-11-28,I 365,submarine,1470,34-44N,141-01E,united_states,submarine
+453,1944-11-29,SUBMARINE CHASER NO45,escort,300,11-00N,124-15E,united_states,land_based_aircraft
+454,1944-11-29,SHINANO,capital_ship,59000,32-00N,137-00E,united_states,submarine
+455,1944-12-03,KUWA,escort,1000,10-50N,124-35E,united_states,surface_craft
+456,1944-12-03,COAST DEFENSE VESSEL NO64,escort,800,18-36N,111-54E,united_states,submarine
+457,1944-12-04,KISHINAMI,escort,2100,13-12N,116-37E,united_states,submarine
+458,1944-12-04,IWANAMI,escort,2100,13-12N,116-37E,united_states,submarine
+459,1944-12-05,HOZU,escort,613,4-24S,152-18E,china,land_based_aircraft
+460,1944-12-07,TRANSPORT NO11,miscellaneous_auxiliary,1500,11-23N,124-18E,united_states,land_based_aircraft
+461,1944-12-12,UZUKI,escort,1500,11-03N,124-23E,united_states,surface_craft
+462,1944-12-12,YUZUKI,escort,1500,11-20N,124-10E,united_states,land_based_aircraft
+463,1944-12-12,TRANSPORT NO159,miscellaneous_auxiliary,1000,11-20N,124-10E,united_states,land_based_aircraft
+464,1944-12-13,TRANSPORT NO12,miscellaneous_auxiliary,1900,20-34N,118-45E,united_states,submarine
+465,1944-12-13,TRANSPORT NO104,miscellaneous_auxiliary,1900,20-34N,118-45E,united_states,submarine
+466,1944-12-14,TRANSPORT NO109,miscellaneous_auxiliary,1000,17-35N,120-20E,united_states,navy_carrier_based_aircraft
+467,1944-12-14,COAST DEFENSE VESSEL NO28,escort,800,15-46N,119-45E,united_states,submarine
+468,1944-12-15,COAST DEFENSE VESSEL NO54,escort,740,19-25N,121-25E,united_states,navy_carrier_based_aircraft
+469,1944-12-15,TRANSPORT NO106,miscellaneous_auxiliary,1000,15-30N,119-50E,united_states,navy_carrier_based_aircraft
+470,1944-12-15,MOMO,escort,760,16-00N,117-39E,united_states,submarine
+471,1944-12-19,UNRYU,capital_ship,18500,28-59N,124-03E,united_states,submarine
+472,1944-12-22,CHIDORI,escort,527,34-33N,138-02E,united_states,submarine
+473,1944-12-24,TRANSPORT NO8,miscellaneous_auxiliary,1900,25-10N,141-00E,united_states,surface_craft
+474,1944-12-24,TRANSPORT NO157,miscellaneous_auxiliary,1000,24-47N,141-20E,united_states,surface_craft
+475,1944-12-26,KIYOSHIMO,escort,2200,12-20N,121-00E,united_states,surface_craft
+476,1944-12-27,TRANSPORT NO7,miscellaneous_auxiliary,1500,24-47N,141-20E,united_states,surface_craft
+477,1944-12-27,TRANSPORT NO132,miscellaneous_auxiliary,1000,24-47N,141-20E,united_states,surface_craft
+478,1944-12-30,COAST DEFENSE VESSEL NO20,escort,1000,16-30N,120-15E,united_states,land_based_aircraft
+479,1944-12-30,KURETAKE,escort,820,21-00N,121-24E,united_states,submarine
+480,1945-01-02,COAST DEFENSE VESSEL NO138,escort,800,16-37N,120-19E,united_states,land_based_aircraft
+481,1945-01-03,SPECIAL SUBMARINE CHASER NO10,escort,100,7-04N,125-37E,united_states,land_based_aircraft
+482,1945-01-05,TRANSPORT NO107,miscellaneous_auxiliary,1000,26-27N,141-11E,united_states,surface_craft
+483,1945-01-05,TRANSPORT NO154,miscellaneous_auxiliary,1000,24-47N,141-20E,united_states,surface_craft
+484,1945-01-05,MOMI,escort,800,14-00N,120-20E,united_states,navy_carrier_based_aircraft
+485,1945-01-09,COAST DEFENSE VESSEL NO3,escort,800,25-10N,121-45E,united_states,navy_carrier_based_aircraft
+486,1945-01-09,SPECIAL SUBMARINE CHASER NO96,escort,100,22-40N,120-00E,united_states,navy_carrier_based_aircraft
+487,1945-01-09,SUBMARINE CHASER NO61,escort,300,22-40N,120-04E,united_states,navy_carrier_based_aircraft
+488,1945-01-10,COAST DEFENSE VESSEL NO42,escort,800,27-01N,126-34E,united_states,submarine
+489,1945-01-12,CHIBURI,escort,900,10-20N,107-50E,united_states,navy_carrier_based_aircraft
+490,1945-01-12,COAST DEFENSE VESSEL NO17,escort,800,10-20N,107-50E,united_states,navy_carrier_based_aircraft
+491,1945-01-12,COAST DEFENSE VESSEL NO19,escort,800,10-20N,107-50E,united_states,navy_carrier_based_aircraft
+492,1945-01-12,COAST DEFENSE VESSEL NO23,escort,800,14-15N,109-10E,united_states,navy_carrier_based_aircraft
+493,1945-01-12,COAST DEFENSE VESSEL NO35,escort,800,11-10N,108-55E,united_states,navy_carrier_based_aircraft
+494,1945-01-12,COAST DEFENSE VESSEL NO43,escort,800,11-10N,108-55E,united_states,navy_carrier_based_aircraft
+495,1945-01-12,COAST DEFENSE VESSEL NO51,escort,800,14-15N,109-10E,united_states,navy_carrier_based_aircraft
+496,1945-01-12,SUBMARINE CHASER NO31,escort,440,11-10N,108-55E,united_states,navy_carrier_based_aircraft
+497,1945-01-12,SUBMARINE CHASER NO43,escort,440,11-53N,109-08E,united_states,navy_carrier_based_aircraft
+498,1945-01-12,MINESWEEPER NO101,minesweeper,630,11-10N,108-55E,united_states,navy_carrier_based_aircraft
+499,1945-01-12,TRANSPORT NO140,miscellaneous_auxiliary,1000,10-20N,107-50E,united_states,navy_carrier_based_aircraft
+500,1945-01-12,KASHII,cruiser,6000,13-50N,109-20E,united_states,navy_carrier_based_aircraft
+501,1945-01-12,PATROL BOAT NO103,miscellaneous_auxiliary,840,11-10N,108-55E,united_states,navy_carrier_based_aircraft
+502,1945-01-13,RO 47,submarine,965,12-08N,154-27E,united_states,surface_craft
+503,1945-01-14,YURISHIMA,miscellaneous_auxiliary,720,5-51N,103-16E,united_states,submarine
+504,1945-01-15,HATAKAZE,escort,1270,22-37N,120-15E,united_states,navy_carrier_based_aircraft
+505,1945-01-15,TSUGA,escort,820,23-33N,119-33E,united_states,navy_carrier_based_aircraft
+506,1945-01-15,TRANSPORT NO14,miscellaneous_auxiliary,1500,22-37N,120-15E,united_states,navy_carrier_based_aircraft
+507,1945-01-17,TRANSPORT NO15,miscellaneous_auxiliary,1500,31-09N,130-29E,united_states,navy_carrier_based_aircraft
+508,1945-01-21,TRANSPORT NO101,miscellaneous_auxiliary,1000,22-37N,120-15E,united_states,navy_carrier_based_aircraft
+509,1945-01-21,TRANSPORT NO102,miscellaneous_auxiliary,1000,11-03N,123-05E,united_states,navy_carrier_based_aircraft
+510,1945-01-24,SHIGURE,escort,1580,6-00N,103-48E,united_states,submarine
+511,1945-01-27,SPECIAL MINESWEEPER NO102,minesweeper,174,8-37S,115-39E,united_states,submarine
+512,1945-01-28,KUME,escort,900,33-56N,123-06E,united_states,submarine
+513,1945-01-31,RO 115,submarine,525,13-20N,119-20S,united_states,surface_craft
+514,1945-01-31,UME,escort,2100,22-30N,120-00E,united_states,land_based_aircraft
+515,1945-02-01,TRANSPORT NO115,miscellaneous_auxiliary,1000,20-00N,121-00E,united_states,land_based_aircraft
+516,1945-02-02,COAST DEFENSE VESSEL NO144,escort,800,4-32N,104-30E,united_states,submarine
+517,1945-02-07,RO 55,submarine,889,15-27N,119-25E,united_states,surface_craft
+518,1945-02-07,COAST DEFENSE VESSEL NO53,escort,800,12-04N,109-22E,united_states,submarine
+519,1945-02-09,I 41,submarine,2212,18-50N,121-40E,united_states,submarine
+520,1945-02-11,RO 112,submarine,525,18-53N,121-50E,united_states,submarine
+521,1945-02-12,RO 113,submarine,525,19-10N,121-23E,united_states,submarine
+522,1945-02-14,COAST DEFENSE VESSEL NO9,escort,800,34-48N,125-58E,united_states,submarine
+523,1945-02-14,SPECIAL SUBMARINE CHASER NO4,escort,100,8-20S,115-45E,united_states,submarine
+524,1945-02-14,SPECIAL SUBMARINE CHASER NO144,escort,100,8-20S,115-45E,united_states,submarine
+525,1945-02-16,NARIU,miscellaneous_auxiliary,720,32-10N,135-54E,united_states,submarine
+526,1945-02-17,TRANSPORT NO114,miscellaneous_auxiliary,1000,23-04N,120-30E,united_states,land_based_aircraft
+527,1945-02-17,COAST DEFENSE VESSEL NO56,escort,750,33-53N,139-43E,united_states,submarine
+528,1945-02-20,NOKAZE,escort,1300,12-48N,109-38E,united_states,submarine
+529,1945-02-23,SUBMARINE CHASER NO35,escort,440,10-15N,107-31E,united_states,land_based_aircraft
+530,1945-02-23,YAKU,escort,900,12-39N,109-29E,united_states,submarine
+531,1945-02-24,RO 49,submarine,965,32-40N,132-33E,united_states,submarine
+532,1945-02-25,I 370,submarine,1470,22-45N,141-27E,united_states,surface_craft
+533,1945-02-25,RO 43,submarine,965,25-07N,140-19E,united_states,navy_carrier_based_aircraft
+534,1945-02-25,SHONAN,escort,900,17-08N,110-01E,united_states,submarine
+535,1945-02-26,I 368,submarine,1470,24-43N,140-37E,united_states,navy_carrier_based_aircraft
+536,1945-03-01,MANAZURU,escort,527,26-17N,127-35E,united_states,navy_carrier_based_aircraft
+537,1945-03-01,TSUBAME,miscellaneous_auxiliary,450,24-23N,124-12E,united_states,navy_carrier_based_aircraft
+538,1945-03-02,TRANSPORT NO143,miscellaneous_auxiliary,1000,23-35N,121-35E,united_states,land_based_aircraft
+539,1945-03-03,HARIO,miscellaneous_auxiliary,4000,18-10N,109-40E,australia,mine
+540,1945-03-04,SUBMARINE CHASER NO8,escort,290,4-04N,100-35E,great_britain,submarine
+541,1945-03-05,SPECIAL SUBMARINE CHASER NO110,escort,100,8-36S,119-19E,united_states,land_based_aircraft
+542,1945-03-05,MINESWEEPER NO15,minesweeper,492,29-30N,129-33E,united_states,submarine
+543,1945-03-08,COAST DEFENSE VESSEL NO69,escort,800,19-02N,110-56E,united_states,land_based_aircraft
+544,1945-03-13,COAST DEFENSE VESSEL NO66,escort,880,23-30N,117-10E,united_states,land_based_aircraft
+545,1945-03-18,TRANSPORT NO18,miscellaneous_auxiliary,1500,26-33N,127-11E,united_states,submarine
+546,1945-03-19,SUMA,escort,625,32-00N,120-00E,united_states,mine
+547,1945-03-21,SUBMARINE CHASER NO33,escort,300,11-50N,109-18E,united_states,land_based_aircraft
+548,1945-03-21,TATEISHI,miscellaneous_auxiliary,2000,11-50N,109-18E,united_states,land_based_aircraft
+549,1945-03-22,I 371,submarine,1660,22-57N,132-19E,united_states,surface_craft
+550,1945-03-24,COAST DEFENSE VESSEL NO68,escort,800,28-25N,124-32E,united_states,navy_carrier_based_aircraft
+551,1945-03-24,TOMOZURU,escort,527,28-25N,124-32E,united_states,navy_carrier_based_aircraft
+552,1945-03-26,SUBMARINE CHASER NO34,escort,300,10-35N,94-45E,great_britain,surface_craft
+553,1945-03-26,SUBMARINE CHASER NO63,escort,300,10-35N,94-45E,great_britain,surface_craft
+554,1945-03-27,SPECIAL MINELAYER NO1,miscellaneous_auxiliary,500,3-52N,98-45E,great_britain,mine
+555,1945-03-27,ODATE,miscellaneous_auxiliary,1564,30-40N,127-50E,united_states,submarine
+556,1945-03-28,COAST DEFENSE VESSEL NO33,escort,800,31-45N,131-40E,united_states,navy_carrier_based_aircraft
+557,1945-03-28,MINESWEEPER NO11,minesweeper,492,5-10S,119-05E,united_states,land_based_aircraft
+558,1945-03-28,PATROL BOAT NO108,miscellaneous_auxiliary,108,4-15S,119-05E,united_states,land_based_aircraft
+559,1945-03-28,MIKURA,escort,900,31-49N,131-44E,united_states,submarine
+560,1945-03-29,COAST DEFENSE VESSEL NO18,escort,1000,14-30N,109-15E,united_states,land_based_aircraft
+561,1945-03-29,COAST DEFENSE VESSEL NO130,escort,1000,14-39N,109-16E,united_states,land_based_aircraft
+562,1945-03-29,SPECIAL SUBMARINE CHASER NO192,escort,100,22-40N,120-15E,united_states,land_based_aircraft
+563,1945-03-29,COAST DEFENSE VESSEL NO84,escort,1000,14-30N,109-16E,united_states,submarine
+564,1945-03-30,I 8,submarine,1995,25-29N,128-35E,united_states,surface_craft
+565,1945-04-02,COAST DEFENSE VESSEL NO186,escort,800,28-07N,129-09E,united_states,navy_carrier_based_aircraft
+566,1945-04-02,TRANSPORT NO17,miscellaneous_auxiliary,1500,28-07N,129-09E,united_states,navy_carrier_based_aircraft
+567,1945-04-02,TRANSPORT NO145,miscellaneous_auxiliary,1000,28-07N,129-09E,united_states,navy_carrier_based_aircraft
+568,1945-04-04,RO 41,submarine,965,26-22N,126-30E,united_states,surface_craft
+569,1945-04-04,RO 64,submarine,988,34-14N,132-16S,united_states,mine
+570,1945-04-04,RO 67,submarine,988,34-00N,133-00S,united_states,mine
+571,1945-04-04,MOKUTO,escort,900,33-53N,131-03E,united_states,mine
+572,1945-04-06,AMATSUKAZE,escort,1900,24-30N,118-10E,united_states,land_based_aircraft
+573,1945-04-06,COAST DEFENSE VESSEL NO1,escort,1000,24-30N,118-10E,united_states,land_based_aircraft
+574,1945-04-06,COAST DEFENSE VESSEL NO134,escort,1000,24-30N,118-10E,united_states,land_based_aircraft
+575,1945-04-06,MINESWEEPER NO12,minesweeper,630,8-13S,119-145,united_states,submarine
+576,1945-04-07,YAMATO,capital_ship,63000,30-54N,128-10E,united_states,navy_carrier_based_aircraft
+577,1945-04-07,YAHAGI,cruiser,7000,30-54N,128-10E,united_states,navy_carrier_based_aircraft
+578,1945-04-07,ASASHIMO,escort,2100,31-00N,128-00S,united_states,navy_carrier_based_aircraft
+579,1945-04-07,HAMAKAZE,escort,1900,31-00N,128-00E,united_states,navy_carrier_based_aircraft
+580,1945-04-07,ISOKAZE,escort,1900,31-00N,128-00E,united_states,navy_carrier_based_aircraft
+581,1945-04-07,KASUMI,escort,1850,31-00N,128-00E,united_states,navy_carrier_based_aircraft
+582,1945-04-07,ISUZU,cruiser,5700,7-38S,118-09E,united_states,submarine
+583,1945-04-08,RO 46,submarine,965,26-09N,130-21E,united_states,surface_craft
+584,1945-04-08,SPECIAL SUBMARINE CHASER NO101,escort,100,4-35S,122-17E,united_states,land_based_aircraft
+585,1945-04-09,MINESWEEPER NO3,minesweeper,615,39-06N,141-57E,united_states,submarine
+586,1945-04-10,I 44,submarine,2212,23-12N,132-23E,united_states,surface_craft
+587,1945-04-11,SUBMARINE CHASER NO7,escort,270,8-57N,93-38E,great_britain,land_based_aircraft
+588,1945-04-13,SPECIAL MINESWEEPER NO104,minesweeper,215,8-05S,115-06E,great_britain,submarine
+589,1945-04-14,COAST DEFENSE VESSEL NO31,escort,800,33-25N,126-15E,united_states,submarine
+590,1945-04-14,NOMI,escort,900,33-25N,126-15E,united_states,submarine
+591,1945-04-16,COAST DEFENSE VESSEL NO73,escort,800,39-36N,142-05E,united_states,submarine
+592,1945-04-17,I 56,submarine,2140,26-42N,130-38E,united_states,navy_carrier_based_aircraft
+593,1945-04-17,RO 56,submarine,889,19-17N,166-35E,united_states,submarine
+594,1945-04-25,MINESWEEPER NO41,minesweeper,492,25-53N,121-08E,united_states,submarine
+595,1945-04-26,SPECIAL MINESWEEPER NO3,minesweeper,215,4-50S,115-40E,great_britain,submarine
+596,1945-04-28,SUBMARINE CHASER NO17,escort,440,32-34N,128-52E,united_states,submarine
+597,1945-04-28,TRANSPORT NO146,miscellaneous_auxiliary,1000,32-24N,128-40E,united_states,submarine
+598,1945-04-28,HATSUSHIMA,miscellaneous_auxiliary,2000,33-58N,136-17E,united_states,submarine
+599,1945-04-29,RO 109,submarine,525,24-15N,131-16E,united_states,navy_carrier_based_aircraft
+600,1945-05-02,OJIKA,escort,1000,33-58N,122-58E,united_states,submarine
+601,1945-05-03,COAST DEFENSE VESSEL NO25,escort,1000,34-38N,124-15E,united_states,submarine
+602,1945-05-04,MINESWEEPER NO20,minesweeper,492,34-16N,123-37E,united_states,submarine
+603,1945-05-07,MINESWEEPER NO29,minesweeper,630,34-02N,130-54E,united_states,mine
+604,1945-05-08,SPECIAL SUBMARINE CHASER NO210,escort,100,23-00N,115-00E,united_states,land_based_aircraft
+605,1945-05-16,HATSUTAKA,miscellaneous_auxiliary,1500,4-54N,103-28E,united_states,submarine
+606,1945-05-16,HAGURO,cruiser,12700,5-00N,99-30E,great_britain,surface_craft
+607,1945-05-21,MINESWEEPER NO34,minesweeper,492,6-15S,116-01E,united_states,submarine
+608,1945-05-22,SUBMARINE CHASER NO37,escort,440,29-45N,129-10E,united_states,navy_carrier_based_aircraft
+609,1945-05-22,SUBMARINE CHASER NO58,escort,440,29-45N,129-10E,united_states,navy_carrier_based_aircraft
+610,1945-05-22,TRANSPORT NO173,miscellaneous_auxiliary,1000,29-45N,129-10E,united_states,navy_carrier_based_aircraft
+611,1945-05-25,SPECIAL MINESWEEPER NO105,minesweeper,200,6-23S,110-55E,great_britain,submarine
+612,1945-05-26,SPECIAL SUBMARINE CHASER NO172,escort,100,36-48N,137-05E,united_states,mine
+613,1945-05-28,COAST DEFENSE VESSEL NO29,escort,800,33-07N,129-44E,united_states,mine
+614,1945-05-30,I 12,submarine,2443,22-22N,134-09E,united_states,navy_carrier_based_aircraft
+615,1945-05-30,I 361,submarine,1470,Off Japan,,united_states,surface_craft
+616,1945-06-04,SPECIAL SUBMARINE CHASER NO112,escort,300,5-00S,116-04E,united_states,land_based_aircraft
+617,1945-06-06,SPECIAL SUBMARINE CHASER NO195,escort,100,37-10N,137-05E,united_states,mine
+618,1945-06-08,ASHIGARA,cruiser,12700,1-59S,104-57E,great_britain,submarine
+619,1945-06-09,COAST DEFENSE VESSEL NO41,escort,800,34-18N,127-18E,united_states,submarine
+620,1945-06-10,I 122,submarine,1142,37-29N,137-25E,united_states,submarine
+621,1945-06-11,SPECIAL SUBMARINE CHASER NO237,escort,100,34-35N,132-20E,united_states,land_based_aircraft
+622,1945-06-12,SUBMARINE CHASER NO57,escort,440,6-20N,94-45E,great_britain,surface_craft
+623,1945-06-12,TRANSPORT NO149,miscellaneous_auxiliary,1000,6-20N,94-45E,great_britain,surface_craft
+624,1945-06-23,SHUTTLE BOAT NO833,miscellaneous_auxiliary,200,5-50S,114-18E,united_states,submarine
+625,1945-06-23,SPECIAL SUBMARINE CHASER NO42,escort,100,5-50S,114-18E,united_states,submarine
+626,1945-06-23,SPECIAL SUBMARINE CHASER NO113,escort,200,5-50S,114-18E,united_states,submarine
+627,1945-06-27,I 165,submarine,1635,15-28N,153-39E,united_states,land_based_aircraft
+628,1945-06-27,SUBMARINE CHASER NO2,escort,300,7-25S,116-00E,united_states,submarine
+629,1945-06-28,ENOKI,escort,1260,35-26N,135-44E,united_states,mine
+630,1945-07-01,COAST DEFENSE VESSEL NO72,escort,800,38-08N,124-38E,united_states,submarine
+631,1945-07-02,SPECIAL SUBMARINE CHASER NO188,escort,100,33-59N,130-52E,united_states,mine
+632,1945-07-05,SPECIAL SUBMARINE CHASER NO37,escort,100,8-10S,114-50E,united_states,submarine
+633,1945-07-07,NARA,escort,1000,33-54N,130-49E,united_states,mine
+634,1945-07-09,SPECIAL SUBMARINE CHASER NO50,escort,100,2-13N,105-03E,united_states,submarine
+635,1945-07-10,MINESWEEPER NO27,minesweeper,630,39-20N,142-07E,united_states,submarine
+636,1945-07-11,SAKURA,escort,1000,35-50N,135-20E,united_states,mine
+637,1945-07-14,TACHIBANA,escort,1000,41-48N,140-41E,united_states,navy_carrier_based_aircraft
+638,1945-07-14,COAST DEFENSE VESSEL NO65,escort,800,42-21N,140-59E,united_states,navy_carrier_based_aircraft
+639,1945-07-14,COAST DEFENSE VESSEL NO74,escort,800,42-21N,140-59E,united_states,navy_carrier_based_aircraft
+640,1945-07-14,COAST DEFENSE VESSEL NO219,escort,800,41-48N,140-41E,united_states,navy_carrier_based_aircraft
+641,1945-07-14,I 351,submarine,2650,4-30N,110-00E,united_states,submarine
+642,1945-07-15,MINESWEEPER NO24,minesweeper,630,41-38N,141-00E,united_states,navy_carrier_based_aircraft
+643,1945-07-15,I 13,submarine,2640,34-28N,150-55E,united_states,navy_carrier_based_aircraft
+644,1945-07-16,KARI,escort,595,5-48S,115-53E,united_states,submarine
+645,1945-07-18,KASUGA,cruiser,7080,35-18N,139-40E,united_states,navy_carrier_based_aircraft
+646,1945-07-18,COAST DEFENSE VESSEL NO112,escort,800,46-03N,142-16E,united_states,submarine
+647,1945-07-20,MINESWEEPER NO39,minesweeper,630,35-01N,125-42E,united_states,submarine
+648,1945-07-23,SPECIAL SUBMARINE CHASER NO117,escort,200,8-10S,115-29E,united_states,submarine
+649,1945-07-24,AMAGI,capital_ship,18500,34-11N,132-30E,united_states,navy_carrier_based_aircraft
+650,1945-07-24,TONE,cruiser,12000,34-14N,132-27E,united_states,navy_carrier_based_aircraft
+651,1945-07-24,HYUGA,capital_ship,34500,34-10N,132-33E,united_states,navy_carrier_based_aircraft
+652,1945-07-24,KAIYO,capital_ship,17000,33-21N,131-32E,united_states,navy_carrier_based_aircraft
+653,1945-07-25,PATROL BOAT NO2,escort,750,7-07S,115-40E,great_britain,submarine
+654,1945-07-27,TRANSPORT NO176,miscellaneous_auxiliary,1000,31-00N,130-33E,united_states,land_based_aircraft
+655,1945-07-28,AOBA,cruiser,8800,34-13N,132-31E,united_states,navy_carrier_based_aircraft
+656,1945-07-28,I 372,submarine,1660,33-00N,133-00E,united_states,navy_carrier_based_aircraft
+657,1945-07-28,HARUNA,capital_ship,31000,34-15N,132-29E,united_states,navy_carrier_based_aircraft
+658,1945-07-28,ISE,capital_ship,34500,34-12N,132-31E,united_states,navy_carrier_based_aircraft
+659,1945-07-28,OYODO,cruiser,8500,34-13N,132-25E,united_states,navy_carrier_based_aircraft
+660,1945-07-28,NASHI,escort,850,34-14N,132-30E,united_states,navy_carrier_based_aircraft
+661,1945-07-28,COAST DEFENSE VESSEL NO4,escort,800,34-00N,134-50E,great_britain,land_based_aircraft
+662,1945-07-28,COAST DEFENSE VESSEL NO30,escort,800,34-43N,136-43E,great_britain,land_based_aircraft
+663,1945-07-28,IWATE,cruiser,9180,34-14N,132-30E,united_states,navy_carrier_based_aircraft
+664,1945-07-28,IZUMO,cruiser,9180,34-14N,132-30E,united_states,navy_carrier_based_aircraft
+665,1945-07-29,SPECIAL SUBMARINE CHASER NO207,escort,100,32-00N,130-00E,united_states,land_based_aircraft
+666,1945-07-30,OKINAWA,escort,900,35-30N,135-21E,united_states,navy_carrier_based_aircraft
+667,1945-07-30,HATSUSHIMO,escort,1600,35-33N,135-12E,united_states,mine
+668,1945-08-07,COAST DEFENSE VESSEL NO39,escort,800,35-06N,129-03E,united_states,land_based_aircraft
+669,1945-08-07,SPECIAL SUBMARINE CHASER NO66,escort,100,7-23N,151-53E,united_states,land_based_aircraft
+670,1945-08-09,AMAKUSA,escort,860,38-26N,141-30E,great_britain,navy_carrier_based_aircraft
+671,1945-08-09,INAGI,escort,900,38-26N,141-30E,united_states,navy_carrier_based_aircraft
+672,1945-08-09,MINESWEEPER NO1,minesweeper,615,38-26N,141-30E,united_states,navy_carrier_based_aircraft
+673,1945-08-09,MINESWEEPER NO33,minesweeper,630,38-26N,141-30E,united_states,navy_carrier_based_aircraft
+674,1945-08-09,TRANSPORT NO21,miscellaneous_auxiliary,1500,33-59N,132-31E,united_states,land_based_aircraft
+675,1945-08-09,COAST DEFENSE VESSEL NO82,escort,800,41-21N,131-12E,russia,land_based_aircraft
+676,1945-08-10,SUBMARINE CHASER NO42,escort,440,38-26N,141-30E,united_states,navy_carrier_based_aircraft
+677,1945-08-13,I 373,submarine,1660,29-02N,123-53E,united_states,submarine
+678,1945-08-13,COAST DEFENSE VESSEL NO6,escort,800,42-11N,142-14E,united_states,submarine
+679,1945-08-14,COAST DEFENSE VESSEL NO13,escort,800,35-42N,134-35E,united_states,submarine
+680,1945-08-14,COAST DEFENSE VESSEL NO47,escort,800,35-42N,134-36E,united_states,submarine
+681,1945-08-15,KANJU,escort,860,39-10N,127-27E,russia,land_based_aircraft
