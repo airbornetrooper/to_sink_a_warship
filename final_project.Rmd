@@ -1,0 +1,187 @@
+---
+title: "To Sink a Warship"
+description: |
+  Analyzing the Losses of the Imperial Japanese Navy
+author:
+  - name: Matthew J. DiRisio 
+    affiliation: George Mason University
+date: "`r Sys.Date()`"
+output: distill::distill_article
+---
+
+```{r setup, echo= FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+
+knitr::opts_chunk$set(echo = TRUE)
+
+library(tidyverse)
+library(dplyr)
+library(scales)
+library(readr)
+library(maps)
+library(mapdata)
+library(leaflet.extras)
+library(sf)
+library(lubridate)
+library(distill)
+library(ggplot2)
+library(reshape2)
+
+sinking_data<- read.csv("final_project_11.csv", header = TRUE, sep = ",")
+
+year_data<- read.csv("final_project_year11.csv", header = TRUE, sep = ",")
+
+final_year<- read.csv("final_sums.csv", header = TRUE, sep = ",")
+
+sinking_data$date<-as.Date(sinking_data$date, '%Y-%m-%d')
+
+dms2dd <- function(x) {
+  deg <- str_extract(x, "\\d+") %>% as.numeric()
+  min <- str_extract(x, "-\\d+") %>% str_remove("-") %>% as.numeric()
+  deg <- deg + min / 60
+  dir <- str_extract(x, "\\w$")
+  ifelse(dir %in% c("N", "E"),
+         deg,
+         -deg)}
+
+sinking_data_dd<- sinking_data %>%
+  mutate(lat= dms2dd(lat),
+         lon= dms2dd(lon))
+
+check_data <- sinking_data %>%
+  select(id, date, tonnage, agent) %>%
+  filter(agent == "carrier_based_aircraft"
+         | agent == "land_based_aircraft"
+         | agent == "mine"
+         | agent == "submarine"
+         | agent == "surface_craft") %>%
+  group_by(month= floor_date(date, "month"),
+           agent) %>%
+  summarize(total_ton= sum(tonnage),
+            amount= n(),
+            avg_ton= sum(tonnage) / n())
+
+sinking_data$date<-as.Date(sinking_data$date, '%Y-%m-%d')
+
+sinking_data_dd$lat <- jitter(sinking_data_dd$lat, factor = 1.0000)
+sinking_data_dd$lon <- jitter(sinking_data_dd$lon, factor = 1.0000)
+
+```
+  The war in the Pacific during World War II (WWII) witnessed the advent of the aircraft carrier as the preeminent strike weapon, the maturation of United States Navy (USN) submarine forces, and the decline of traditional all-gun surface warships. All of these methods, and few others, combined to pummel the Imperial Japanese Navy (IJN) into submission by 1945. Traditionally, many WWII naval historians and scholars such as David Jones, Jim Christley, and Clay Blair have pointed to the USN submarine fleet as being a deciding factor. This approach has some merit when it comes to dissecting the losses of the Japanese maritime merchant fleet. However, when it comes to the IJN proper, the research in this paper seeks to lay out a case that it was actually the USN carrier fleet’s aircraft that did the true heavy lifting during the war. Although USN submarines sank more Japanese merchant ships, they were not as effective against the capital ships, such as aircraft carriers and battleships, of the IJN. This paper utilizes the extensive records of the Joint Army Navy Assessment Committee (JANAC) as a historical dataset to take a deeper look into IJN warship losses from 1941-1945, and sort through their causes of losses as well the method by which they were sunk.^[The Joint Army-Navy Assessment Committee, NAVEXOS P 468, <i>Japanese Naval and Merchant Shipping Losses During World War II by All Causes</i>, February, 1947 https://www.history.navy.mil/research/library/online-reading-room/title-list-alphabetically/j/japanese-naval-merchant-shipping-losses-wwii.html] The JANAC was an inter-service United States Department of Defense program set up in 1943 to evaluate and measure Japanese naval and commercial ship losses caused by Allied forces during WWII. The cataloging of all Japanese Naval losses concluded in 1947 and established dates, tonnage, name, cause, sinking country, and sinking agents for every loss. This represents a significant source of previously untapped data, which correctly formatted, can be ran through R to gain a better understanding of change over time.^[For examples of typical USN histories highlighting submarines see  Clay Blair, *Silent Victory: The U.S. Submarine War Against Japan*. (Annapolis: Naval Institute Press, 2001), David Jones, *U.S. Subs Down Under. Brisbane, 1942–1945* (Annapolis: Naval Institute Press, 2005), and Jim Christley, *US Submarines 1941–45* (Oxford: Ospery Publishing, 2006)]
+  
+A more detailed look at the data yielded some interesting results. The data was pulled directly from the Naval History and Heritage Command Website. Without becoming too ensnared in the details, this was a relatively tedious process of copying and pasting the data into an Excel sheet, cleaning it, converting it into a Comma Separated Value (CSV) sheet, running it through Open Refine, and finally uploading it into R. It consists of 681 rows, each containing one IJN warship sunk during WWII and the relevant info concerning it. Although comprehensive, the data is thoroughly one-dimensional. It is simply a list of sunken naval warships, with some information on the specifics of sinking cause and what agent and country did the sinking. What the data does not do is answer the “why” or making any attempt to break down changing trends over time. The computational methods used by this article help to bridge the gap between the raw data of the JANAC and the actual operational processes which caused these outcomes. With a fair amount of refinement and cleaning, the data is more than sufficient to go some ways towards accomplishing this.
+
+One of the first things that jumps out when looking at the data is the sheet number of losses suffered by the IJN. Within the context of the losses, the losses of Japanese escort warships are particularly alarming, with nearly half (338 of the total 681 warships sunk) belonging to this type of warship. This will be discussed in greater context later in this paper. To put it bluntly, if Japanese capital ships were vulnerable to aircraft, surely their lighest and least well defended warships would suffer grieviously as well.
+
+```{r, layout="l-body-outset", echo= FALSE}
+
+library(rmarkdown)
+paged_table(sinking_data)
+
+```
+<figure><p class=”caption”> Table 1. This table shows the data utilized for this project. It is based upon that in <a href="https://www.history.navy.mil/research/library/online-reading-room/title-list-alphabetically/j/japanese-naval-merchant-shipping-losses-wwii.html"><i>Japanese Naval and Merchant Shipping Losses During World War II by All Causes</i></a> Some simplification of Japanese ship types was required. These have been boiled down to "Capital Ship", "Submarine", "Escort", "Minesweeper", or "Miscellaneous Auxiliary." To reduce mistakes and coding errors, every ship sinking is limited to one agent, either “Navy Carrier Based Aircraft”, “Land Based Aircraft”, Surface Craft”, "Shore Battery”, "Mine", or “Marine Casualty.” This required some level of research and decision making as to the agent that caused the most catastrophic damage if multiple agents are cited in the JANAC. The below graph has been broken down into the three greatest sinking agents: Navy Carrier Based Aircraft, Submarines, and Surface Craft. The author assumes sole responsbility for these decisions. </p></figure>
+
+<h3 align="center">The Ascendence of Aircraft Carriers</h3>
+
+The practicality of aircraft carriers was validated early in the war, when the Japanese decimated the United States Pacific fleet at Pearl Harbor on December 7, 1941. Most crucially during this attack, the Japanese sank no US aircraft carriers. The first large spike on the graph below occurs in 1942, and this is the Battle of Midway in June of 1942. During this battle, four Japanese aircraft carriers ^[If the reader examines the data, all the aircraft carriers are lumped together with the battleships as capital ships, for the purposes of simplicity and ease of data manipulation.] and a heavy cruiser ^[In a similar manner, all cruisers in the data, whether heavy or light, are simply referred to as “cruisers”.] were sunk. All of these ships were sunk by Navy Carrier Based Aircraft. If the reader observes the spikes, it is easy to track the major events of the Pacific War. The other three spikes are the Battle of Leyte Gulf, the sinking of the Yamato, a truly massive ship that weighed in 70,000 tons by itself, and the Kure Harbor Naval Air Raid in July, 1945. In comparison, Submarines do not have the large spikes that Navy Carrier Based Aircraft do but possess a relatively consistent flow throughout the war judging by the graph. Lastly, Surface Craft ^[Surface craft includes everything that sinks enemy ships with guns and/or torpedoes, from PT boats to battleships.] only manage one small spike, the First and Second Naval Battles of Guadalcanal in late 1942, and one large spike which is the Battle of Leyte Gulf in late 1944. For all the effort put into building the USN surface fleet, it played a largely ancillary role during the war, mainly functioning as a shore bombardment force during the island hopping campaign, and as escorting anti-aircraft capability for the aircraft carriers. ^[For more on the debate between aircraft carriers and all-gun surface units, see Lundstrom, John B. *The First Team: Pacific Naval Air Combat from Pearl Harbor to Midway* (Naval Institute Press, 1984).]
+
+<h3 align="center"></h3>
+
+```{r, layout="l-body-outset", echo= FALSE,fig.cap= "This chart depicts the monthly Japanese warship tonnage sunk, and breaks it down by each individual sinking agent. For the purposes of this paper, it has been broken down into the three largest sinking agents. There are others, such as Shore Batteries, that sank so few ships (four ships in the case of Shore Batteries) they barely figure into the data and therefore were not included for this depiction."}
+
+sinking_data %>%
+  select(date, tonnage, agent, date) %>%
+  filter(agent == "navy_carrier_based_aircraft"
+         | agent == "submarine"
+         | agent == "surface_craft") %>%
+  group_by(month= floor_date(date, "month"),
+           agent) %>%
+  summarize(total_ton= sum(tonnage),
+            amount= n(),
+            avg_ton= sum(tonnage) / n()) %>%
+  ggplot(aes(x= month, y= total_ton, color= agent)) + geom_line(size= 0.5)+ geom_point(size= 1) +
+  labs(title = "Total Imperial Japanese Navy Warship Tonnage Sunk By the Allies",
+       subtitle = "By Month and Agent", 
+       y= "Total Tonnage",
+       x=element_blank(),
+       color= "Agent of Destruction") +
+  scale_y_continuous(name = "Tonnage",
+                     breaks = seq(0, 300e3, by = 100e3),
+                     labels = scales::number_format(scale = 1/1000, suffix = "L")) +
+  theme_bw()
+```
+
+```{r, layout="l-body-outset", echo= FALSE,fig.cap= "Map of Imperial Japanese Navy warships sunk by the Allies throughout the War in the Pacific, colorized by ship agent. Note the preponderance of green circles. These are the various ship types classified as escorts, which suffered the highest loss rate of any IJN warship class. When the mouse is hovered above a point it will show the sunken warship's name, its ship type, and the agent that sank it."}
+pal <- colorFactor(c("yellow", "brown", "green", "red", "orange"), domain = c("capital_ship", "submarine", "escort", "cruiser", "miscellaneous_auxiliary"))
+
+sinking_data_dd %>%
+  filter(type == "capital_ship"|
+         type == "submarine" |
+         type == "escort"|
+         type == "cruiser"|
+         type == "miscellaneous_auxiliary") %>%
+ leaflet() %>%
+ addCircleMarkers(data = sinking_data_dd,
+                   lng = ~lon,
+                   lat = ~lat,
+                   color = ~pal(type),
+                   radius = 5,
+                   popup = ~paste(name, type, agent, date), 
+                   group = "4") %>%
+ addProviderTiles("Stamen.Watercolor") %>% 
+  addProviderTiles("Stamen.Watercolor") %>% 
+  addLegend(position = "bottomleft", 
+            pal= pal,
+            values = c("capital_ship", "submarine", "escort", "cruiser",  "miscellaneous_auxiliary"))
+```
+
+<h3 align="center">Why So Many Green Circles: Explaining the Death of the Kaibōkan</h3>
+
+What is not included in this paper is the decline of the Japanese ship building industry. As the war went on the Imperial Japanese Navy was forced to design and build simpler, more easily mass-produced ships. The Japanese called these ships *Kaibōkan*, or "ocean defence ships,” a name used to denote a multi-purpose vessel.^[ (Kai = sea, ocean, Bō = defense, Kan = ship] These ships were much smaller and less heavily armed than their predecessors. They sufficed for anti-submarine work, but little else. However, by 1945 these ships formed a major part of Japanese naval strength due to lack of new warships and fuel shortages. They were expendable, and saw heavy losses in the last year of the war.^[For more information on *Kaibōkan* see Mark Stille, * Imperial Japanese Navy Antisubmarine Escorts * (Oxford: Osprey, 2017),]
+
+The chart below depicts Japanese warship losses during the last year of the war in 1945. Japenese escort warships made up nearly 71% of al losses that year. Their smaller size and tonnage meant that they consumed less of the dwindling fuel reserves that the Imperial Japanese Navy possessed. At the same time, their diminished size led to their general inability to defend themselves. The *Kaibōkan* were certainly expendient vessels to produce, but that also led to the fatal flaws of their design. The Japanese sailors who put to sea in these warships (with warship being a very loose term to describe these compared to their predecessors) were facing long odds at achieving any success. Their use in combat is a symbol of the desperation experienced by the Japanese Navy during the final year of the war.
+
+<h3 align="center"></h3>
+
+```{r, layout="l-body-outset", echo= FALSE,fig.cap= "This bar graph depicts the four types of Imperial Japanese Navy warships that suffered the greatest losses in 1945. The focus of this graph is total number sunk rather than tonnage of the ships."}
+
+total.sunk <- c(109, 6, 11, 28)
+
+barplot(total.sunk,
+main = "Total Number of Sunken Japanese Warships by Type in 1945",
+cex.names = .9,
+xlab = "Number Sunk",
+ylab = "Warship Type",
+names.arg = c("Escort", "Cap", "Cruiser", "Sub"),
+col = "darkred",
+horiz = TRUE)
+
+```
+
+<h3 align="center">Endgame: What Happens When the Fuel Runs Out</h3>
+
+
+
+
+
+<h3 align="center"></h3>
+
+```{r, layout="l-body-outset", echo= FALSE,fig.cap= "When a more detailed look at Imperial Japanese Navy warship sinkings in 1945 is undertaken, it becomes obvious how vulnerable Japanese warships were to aircraft. Aircraft were by far the deadliest agent of destruction to the Japanese fleet in the last year of the war. It also shows that the only Japanese vessel being sank by submarines were by and the *Kaibōkan* escorts. The rest of the Japanese fleet was bottled up in harbor and therefore invulnerable to submarine attack by and large."}
+
+column1 <- c(rep("Escorts", 3), rep("Cruisers", 3), rep("Capital Ships", 3))
+column2 <- gl(3, 1, 9, labels=c("Sinkings by Submarine", "Sinkings by Aircraft", "Total Sinkings of Type"))
+column3 <- c(35, 61, 109, 2, 8, 11, 0, 6, 6)
+
+d <- data.frame(column1=column1, column2=column2, column3=column3)
+
+require(ggplot2)
+ggplot(d, aes(x=column1, y=column3, fill=column2)) +
+  geom_density(alpha=.3) + 
+           xlab("Warship Type") + 
+           ylab("Total Number of Warships Sunk") +
+  ggtitle("Detailed Breakdown of Imperial Japanese Navy Warship Losses in 1945") +
+  guides(fill=guide_legend(title="Agent of Destruction")) +
+  geom_bar(stat="identity", position=position_dodge()) 
+ 
+```
+
